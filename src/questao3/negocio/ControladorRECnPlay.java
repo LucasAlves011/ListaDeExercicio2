@@ -91,9 +91,6 @@ public class ControladorRECnPlay {
         }
     }
 
-
-
-
     public List<Palestra> listarOrdenadas(){
         return repositorioPalestra.listarOrdenadas();
     }
