@@ -1,4 +1,4 @@
-package questao2.dados.beans;
+package questao2.anegocio.beans;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
@@ -10,7 +10,7 @@ public class Consumidor extends Usuario {
     DateTimeFormatter forma = DateTimeFormatter.ofPattern("dd/MM/yyyy");
 
     private ArrayList<Categorias> interesse;
-    //Sim entra para as categorias serem String's , porém eu queria testar a implementação com enums para aprender
+    //Sim era para as categorias serem String's , porém eu queria testar a implementação com enums para aprender
 
     public Consumidor(String nome, String email, LocalDate dataNascimento, ArrayList<Categorias> interesse) {
         super(nome, email, dataNascimento);

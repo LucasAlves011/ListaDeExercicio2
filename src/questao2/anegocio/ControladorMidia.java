@@ -3,7 +3,7 @@ package questao2.anegocio;
 import questao2.dados.RepositorioMidia;
 import questao2.dados.RepositorioReproducaoMidia;
 import questao2.dados.RepositorioUsuario;
-import questao2.dados.beans.*;
+import questao2.anegocio.beans.*;
 
 import java.time.LocalDateTime;
 import java.time.temporal.ChronoUnit;

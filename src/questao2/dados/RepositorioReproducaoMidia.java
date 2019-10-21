@@ -1,8 +1,8 @@
 package questao2.dados;
 
-import questao2.dados.beans.Categorias;
-import questao2.dados.beans.Consumidor;
-import questao2.dados.beans.ReproduzirMidia;
+import questao2.anegocio.beans.Categorias;
+import questao2.anegocio.beans.Consumidor;
+import questao2.anegocio.beans.ReproduzirMidia;
 
 import java.time.LocalDateTime;
 import java.util.ArrayList;

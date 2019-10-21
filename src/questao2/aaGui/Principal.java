@@ -1,7 +1,7 @@
 package questao2.aaGui;
 
 import questao2.anegocio.ControladorMidia;
-import questao2.dados.beans.*;
+import questao2.anegocio.beans.*;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
@@ -154,6 +154,7 @@ public class Principal {
         listaTeste.add(Categorias.TEEN);
 
         System.out.println(segundoSinalizador.listarPorCategorias(listaTeste));
+
     }
     public static ArrayList<Categorias> selecionarCategorias(){
         int numero =(int) (Math.random()*15) +1;

@@ -1,6 +1,6 @@
 package questao2.dados;
 
-import questao2.dados.beans.Usuario;
+import questao2.anegocio.beans.Usuario;
 
 import java.time.LocalDate;
 import java.time.temporal.ChronoUnit;
@@ -16,7 +16,7 @@ public class RepositorioUsuario {
     }
 
     public void adicionar(Usuario novo){
-        array.add(novo);
+       if (!buscarEmail(novo)) array.add(novo);
     }
 
     public void remover(Usuario x){

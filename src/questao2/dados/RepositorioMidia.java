@@ -1,7 +1,7 @@
 package questao2.dados;
 
-import questao2.dados.beans.Categorias;
-import questao2.dados.beans.Midia;
+import questao2.anegocio.beans.Categorias;
+import questao2.anegocio.beans.Midia;
 
 import java.util.ArrayList;
 import java.util.List;

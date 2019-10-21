@@ -1,4 +1,4 @@
-package questao2.dados.beans;
+package questao2.anegocio.beans;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
